@@ -5,6 +5,14 @@ Currently there is just one bare-bones template but it should suffice for now.  
 as I get feedback as to what users want to see.  Please feel free to use this for whatever WordPress project you
 have a need for.
 
+== Installation/Use
+
+This plugin requires that compass be installed before it will run.
+
+To make the stylesheets compile correctly please change the default css_dir setting in the config.rb.
+* Change css_dir = "stylesheets" to css_dir = "." 
+* I am researching better ways to do this but this will work for now.
+
 == Contributing to compass-wp
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
