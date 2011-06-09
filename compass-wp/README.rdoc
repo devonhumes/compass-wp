@@ -1,6 +1,9 @@
 = compass-wp
 
-Description goes here.
+This is a plugin that allows the creation of SASS/Compass compatible WordPress template files.
+Currently there is just one bare-bones template but it should suffice for now.  More base templates will follow
+as I get feedback as to what users want to see.  Please feel free to use this for whatever WordPress project you
+have a need for.
 
 == Contributing to compass-wp
  
