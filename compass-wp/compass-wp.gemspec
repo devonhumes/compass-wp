@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{compass-wp}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Devon Humes}]
@@ -24,6 +24,9 @@ Gem::Specification.new do |s|
     "templates/base/_LICENSE.txt",
     "templates/base/_READ_ME.txt",
     "templates/base/_base.scss",
+    "templates/base/_footer.scss",
+    "templates/base/_header.scss",
+    "templates/base/_navigation.scss",
     "templates/base/archive.php",
     "templates/base/attachment.php",
     "templates/base/author.php",
@@ -31,17 +34,14 @@ Gem::Specification.new do |s|
     "templates/base/comments.php",
     "templates/base/editor-style.css",
     "templates/base/footer.php",
-    "templates/base/footer.scss",
     "templates/base/functions.php",
     "templates/base/header.php",
-    "templates/base/header.scss",
     "templates/base/images/headers/starkers-thumbnail.png",
     "templates/base/images/headers/starkers.png",
     "templates/base/images/wordpress.png",
     "templates/base/index.php",
     "templates/base/loop.php",
     "templates/base/manifest.rb",
-    "templates/base/navigation.scss",
     "templates/base/onecolumn-page.php",
     "templates/base/page.php",
     "templates/base/screenshot.png",
