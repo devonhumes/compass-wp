@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Devon Humes}]
-  s.date = %q{2011-06-08}
+  s.date = %q{2011-06-09}
   s.description = %q{Create SASS/Compass compatible WordPress themes}
   s.email = %q{devon.humes@gmail.com}
   s.files = [
@@ -20,6 +20,38 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/compass-wp.rb",
+    "templates/base/404.php",
+    "templates/base/_LICENSE.txt",
+    "templates/base/_READ_ME.txt",
+    "templates/base/_base.scss",
+    "templates/base/archive.php",
+    "templates/base/attachment.php",
+    "templates/base/author.php",
+    "templates/base/category.php",
+    "templates/base/comments.php",
+    "templates/base/editor-style.css",
+    "templates/base/footer.php",
+    "templates/base/footer.scss",
+    "templates/base/functions.php",
+    "templates/base/header.php",
+    "templates/base/header.scss",
+    "templates/base/images/headers/starkers-thumbnail.png",
+    "templates/base/images/headers/starkers.png",
+    "templates/base/images/wordpress.png",
+    "templates/base/index.php",
+    "templates/base/loop.php",
+    "templates/base/manifest.rb",
+    "templates/base/navigation.scss",
+    "templates/base/onecolumn-page.php",
+    "templates/base/page.php",
+    "templates/base/screenshot.png",
+    "templates/base/search.php",
+    "templates/base/sidebar-footer.php",
+    "templates/base/sidebar.php",
+    "templates/base/single.php",
+    "templates/base/style.css",
+    "templates/base/style.scss",
+    "templates/base/tag.php",
     "templates/project/manifest.rb",
     "templates/project/screen.scss"
   ]
